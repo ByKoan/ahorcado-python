@@ -1,6 +1,6 @@
 import os #Importamos OS para poder borrar la consola
 
-print("Ahorcado Made By Diego")
+print("Ahorcado Made By Koan")
 print("""
         |----------|
         |          |
