@@ -136,7 +136,7 @@ class Ahorcado: #Creamos la clase "Ahorcado"
             posicion se encontro y tambien comprueba si la palabra es
             correcta, y si esta correcta te imprime que has ganado.
         """
-        if self.letra in self.palabra: #Bucle if que busca que esta la letra en la palabra 
+        if self.letra in self.palabra: #if que busca que esta la letra en la palabra 
             print("¡Correcto! : La letra: " + self.letra + " esta dentro de la palabra.") #Imprime que la letra esta en la palabra
             for i in range(0, len(self.palabra)): #Bucle for que recorre un rango en la longitud de la palabra:
                 if self.palabra[i] == self.letra: #Compara  "i" en la palabra con la letra
